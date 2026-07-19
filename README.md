@@ -57,8 +57,9 @@ Por questões de boas práticas de versionamento, o arquivo CSV não está inclu
 Para reproduzir este projeto:
 
 1. Faça o download do dataset.
-2. Coloque o arquivo dentro da pasta `data/`.
-3. Execute o notebook principal.
+2. Crie a pasta chamada data dentro projeto-risco-credito.
+3. Coloque o dataset credit_risk_dataset.csv dentro dela
+4. Execute o notebook principal.
 
 ---
 
@@ -97,7 +98,7 @@ Calculada por:
 
 As principais bibliotecas e ferramentas utilizadas no desenvolvimento do projeto foram:
 
-- Python 3.x
+- Python 
 - Pandas
 - NumPy
 - Matplotlib
@@ -318,9 +319,6 @@ Os modelos foram comparados utilizando as seguintes métricas:
 
 Além das métricas estatísticas, foi realizada uma análise dos impactos financeiros dos erros de classificação (Falsos Positivos e Falsos Negativos) para recomendar o modelo mais adequado ao problema de negócio.
 
----
-
-Essa variável representa o percentual da renda anual comprometido com o empréstimo solicitado, permitindo fornecer uma nova informação ao modelo para auxiliar na identificação de clientes com maior risco de inadimplência.
 ---
 
 # Análise Exploratória dos Dados (EDA)
