@@ -333,11 +333,8 @@ Durante essa etapa foram analisadas as distribuições das variáveis, a presen�
 
 A base de dados apresentou desbalanceamento entre as classes, com predominância de clientes adimplentes.
 
-> **Inserir gráfico da distribuição da variável alvo**
+![Distribuição da Variável Alvo](images/1.1%20Distribuição%20da%20Variável%20alvo.png)
 
-```markdown
-![Distribuição da variável alvo](images/distribuicao_target.png)
-```
 
 ---
 
@@ -345,35 +342,15 @@ A base de dados apresentou desbalanceamento entre as classes, com predominância
 
 Foram analisadas as distribuições das principais variáveis numéricas para identificar assimetrias, dispersões e possíveis outliers.
 
-> **Inserir histogramas ou boxplots**
-
-```markdown
-![Distribuição das variáveis numéricas](images/variaveis_numericas.png)
-```
-
----
-
-## Distribuição das Variáveis Categóricas
-
-Também foram avaliadas as frequências das variáveis categóricas presentes na base de dados.
-
-> **Inserir gráfico das variáveis categóricas**
-
-```markdown
-![Variáveis categóricas](images/variaveis_categoricas.png)
-```
-
+![Histogramas das Variáveis](images/1-%20histograma.png)
+![Boxplots das Variáveis](images/3-%20bloxplot.png)
 ---
 
 ## Correlação entre Variáveis
 
 Foi construída uma matriz de correlação para identificar relações lineares entre as variáveis numéricas e verificar quais atributos apresentavam maior associação com a variável alvo.
 
-> **Inserir Heatmap**
-
-```markdown
-![Mapa de correlação](images/heatmap_correlacao.png)
-```
+![Mapa de Correlação](images/2-%20mapa%20de%20calor%20(Heatmap)%20apresenta%20a%20correlação%20de%20Pearson.png)
 
 ---
 
