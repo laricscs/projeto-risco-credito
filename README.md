@@ -1,10 +1,15 @@
-# Projeto de Predição de Risco de Crédito
+# 🤖 Projeto de Predição de Risco de Crédito - MACHINE LEARNING
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange)
 ![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-# Projeto de Predição de Risco de Crédito
+## Links Importantes
+
+| LinkedIn | [Larissa Cardozo ](https://www.linkedin.com/in/larissa-souza-c/) |
+
+<img src="images/CAPA.png" width="900">
+
 
 ## Objetivo
 
@@ -57,8 +62,8 @@ Por questões de boas práticas de versionamento, o arquivo CSV não está inclu
 Para reproduzir este projeto:
 
 1. Faça o download do dataset.
-2. Crie a pasta chamada data dentro projeto-risco-credito.
-3. Coloque o dataset credit_risk_dataset.csv dentro dela
+2. Crie a pasta chamada data e coloque dentro da pasta principal projeto-risco-credito.
+3. Coloque o dataset credit_risk_dataset.csv dentro da pasta data
 4. Execute o notebook principal.
 
 ---
@@ -378,15 +383,11 @@ Foram testados diferentes valores para o parâmetro **K**, comparando o desempen
 
 ### Tabela de Resultados
 
-> **Inserir tabela dos resultados do KNN**
+![Resultados do KNN](images/4.1%20resultados%20do%20KNN.png)
 
 ### Curva de Validação
 
-> **Inserir gráfico da curva de validação do KNN**
-
-```markdown
-![Curva de validação KNN](images/curva_knn.png)
-```
+![Diagnóstico de Overfitting - KNN](images/4-%20Diagnóstico%20de%20Overfitting%20-%20KNN.png)
 
 **Conclusão**
 
@@ -400,15 +401,12 @@ Foram avaliadas diferentes profundidades máximas da árvore (`max_depth`).
 
 ### Tabela de Resultados
 
-> **Inserir tabela dos resultados da Árvore de Decisão**
+![Resultados da Árvore de Decisão](images/5.1%20-%20resultados%20do%20ÁRVORE.png)**
 
 ### Curva de Validação
 
-> **Inserir gráfico da curva de validação da Árvore**
+![Diagnóstico de Overfitting - Árvore de Decisão](images/5-%20Diagnóstico%20de%20Overfitting%20-%20ÁRVORE%20DE%20DECISÃO.png)
 
-```markdown
-![Curva de validação Árvore](images/curva_arvore.png)
-```
 
 **Conclusão**
 
@@ -426,21 +424,13 @@ Os melhores modelos encontrados foram avaliados utilizando métricas de classifi
 
 ### KNN
 
-> **Inserir o Classification Report do KNN**
-
-```markdown
-![Classification Report KNN](images/classification_knn.png)
-```
+![Classification Report - KNN](images/6%20-%20Classification%20Report%20-%20KNN.png)
 
 ---
 
 ### Árvore de Decisão
 
-> **Inserir o Classification Report da Árvore**
-
-```markdown
-![Classification Report Árvore](images/classification_tree.png)
-```
+![Classification Report - Árvore de Decisão](images/7%20-%20Classification%20Report%20-%20Árvore.png)
 
 ---
 
@@ -450,17 +440,13 @@ As matrizes de confusão permitem visualizar os acertos e erros de classificaç�
 
 ### KNN
 
-```markdown
-![Matriz de Confusão KNN](images/matriz_knn.png)
-```
+![Matriz de Confusão - KNN](images/8%20-%20Matriz%20de%20Confusão%20-%20KNN.png)
 
 ---
 
 ### Árvore de Decisão
 
-```markdown
-![Matriz de Confusão Árvore](images/matriz_tree.png)
-```
+![Matriz de Confusão - Árvore de Decisão](images/Matriz%20de%20Confusão%20-%20ÁRVORE%20DE%20DECISÃO.png)
 
 ---
 
