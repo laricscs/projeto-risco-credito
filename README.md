@@ -57,8 +57,9 @@ Por questões de boas práticas de versionamento, o arquivo CSV não está inclu
 Para reproduzir este projeto:
 
 1. Faça o download do dataset.
-2. Coloque o arquivo dentro da pasta `data/`.
-3. Execute o notebook principal.
+2. Crie a pasta chamada data dentro projeto-risco-credito.
+3. Coloque o dataset credit_risk_dataset.csv dentro dela
+4. Execute o notebook principal.
 
 ---
 
@@ -97,7 +98,7 @@ Calculada por:
 
 As principais bibliotecas e ferramentas utilizadas no desenvolvimento do projeto foram:
 
-- Python 3.x
+- Python 
 - Pandas
 - NumPy
 - Matplotlib
@@ -320,9 +321,6 @@ Além das métricas estatísticas, foi realizada uma análise dos impactos finan
 
 ---
 
-Essa variável representa o percentual da renda anual comprometido com o empréstimo solicitado, permitindo fornecer uma nova informação ao modelo para auxiliar na identificação de clientes com maior risco de inadimplência.
----
-
 # Análise Exploratória dos Dados (EDA)
 
 Antes do treinamento dos modelos, foi realizada uma Análise Exploratória dos Dados (Exploratory Data Analysis - EDA) com o objetivo de compreender a estrutura da base, identificar possíveis inconsistências e obter insights que auxiliassem na etapa de modelagem.
@@ -335,11 +333,8 @@ Durante essa etapa foram analisadas as distribuições das variáveis, a presen�
 
 A base de dados apresentou desbalanceamento entre as classes, com predominância de clientes adimplentes.
 
-> **Inserir gráfico da distribuição da variável alvo**
+![Distribuição da Variável Alvo](images/1.1%20Distribuição%20da%20Variável%20alvo.png)
 
-```markdown
-![Distribuição da variável alvo](images/distribuicao_target.png)
-```
 
 ---
 
@@ -347,35 +342,15 @@ A base de dados apresentou desbalanceamento entre as classes, com predominância
 
 Foram analisadas as distribuições das principais variáveis numéricas para identificar assimetrias, dispersões e possíveis outliers.
 
-> **Inserir histogramas ou boxplots**
-
-```markdown
-![Distribuição das variáveis numéricas](images/variaveis_numericas.png)
-```
-
----
-
-## Distribuição das Variáveis Categóricas
-
-Também foram avaliadas as frequências das variáveis categóricas presentes na base de dados.
-
-> **Inserir gráfico das variáveis categóricas**
-
-```markdown
-![Variáveis categóricas](images/variaveis_categoricas.png)
-```
-
+![Histogramas das Variáveis](images/1-%20histograma.png)
+![Boxplots das Variáveis](images/3-%20bloxplot.png)
 ---
 
 ## Correlação entre Variáveis
 
 Foi construída uma matriz de correlação para identificar relações lineares entre as variáveis numéricas e verificar quais atributos apresentavam maior associação com a variável alvo.
 
-> **Inserir Heatmap**
-
-```markdown
-![Mapa de correlação](images/heatmap_correlacao.png)
-```
+![Mapa de Correlação](images/2-%20mapa%20de%20calor%20(Heatmap)%20apresenta%20a%20correlação%20de%20Pearson.png)
 
 ---
 
